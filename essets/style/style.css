@@ -140,7 +140,7 @@ body {
   /* Media Queries */
 
   @media (min-width: 700px) {
-    .flex {
+    .flex-container {
       display: flex;
       justify-content: center;
     }
@@ -148,6 +148,8 @@ body {
     #section-a .content-text {
       columns: 2;
       column-gap: 2em;
+      max-width: 57%;
+      margin: auto;
     }
 
     #section-a .content-text p {
@@ -166,5 +168,9 @@ body {
 
     #section-b li {
       width: 31%;
+    }
+    #section-c .content-wrap p{
+      max-width: 80%;
+      margin: auto;
     }
   }
